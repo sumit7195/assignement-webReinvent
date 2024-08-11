@@ -157,6 +157,6 @@ describe('Login Component', () => {
       </Provider>
     );
 
-    expect(screen.getByRole('status')).toBeInTheDocument(); // Adjust if you have a specific role or test for spinner visibility
+    expect(screen.getByRole('status')).toBeInTheDocument(); 
   });
 });
